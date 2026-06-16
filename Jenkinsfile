@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Shukruth-Gowda/MyMavenSeleniumApp01-.git'
+                git branch: 'master', url: 'https://github.com/Shukruth-Gowda/sl1.git'
             }
         }
 
